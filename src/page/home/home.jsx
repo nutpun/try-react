@@ -42,7 +42,7 @@ export default function Home() {
 									onMouseLeave={() => setHover2(false)}
 								>
 									<b style={{ color: hover2 ? 'greenyellow' : 'white', fontSize: 16 }}>
-										การสนับสนุน5
+										การสนับสนุน
 									</b>
 								</Col>
 								<Col
