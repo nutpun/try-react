@@ -8,7 +8,9 @@ export default function Login() {
 				<form class="login-form" action="/home">
 					<input type="text" placeholder="อีเมลหรือหมายเลขโทรศัพท์มือถือ" />
 					<input type="password" placeholder="รหัสผ่าน" />
-					<button htmlType="submit">login</button>
+					<button htmlType="submit" className="rounded">
+						login
+					</button>
 				</form>
 			</div>
 		</div>
