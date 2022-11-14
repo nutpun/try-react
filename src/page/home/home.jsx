@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Navbar from '../../components/Navbar'
 import './home.css'
 export default function Home() {
-	const { Header, Content, Footer } = Layout
+	const { Footer } = Layout
 	const [hoverButton, setHoverButton] = useState(false)
 
 	return (
@@ -70,10 +70,7 @@ export default function Home() {
 				<Footer style={{ textAlign: 'center', backgroundColor: 'black', color: 'white' }}>
 					<Row style={{ paddingLeft: 130, paddingRight: 130, marginTop: 50 }}>
 						<Col>
-							<Image
-								width={140}
-								src={`https://yungcitizen.com/wp-content/uploads/2018/09/spotify-logo-horizontal-white.png`}
-							/>
+							<Image width={140} src={`https://cdn-icons-png.flaticon.com/512/174/174872.png`} />
 						</Col>
 						<Col style={{ textAlign: 'left', paddingLeft: 50 }}>
 							<Col style={{ color: 'gray' }}>บริษัท</Col>

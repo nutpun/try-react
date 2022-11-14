@@ -13,10 +13,7 @@ const Navbar = () => {
 			<div />
 			<Row justify="space-between" style={{ paddingLeft: 130, paddingRight: 130, marginTop: 10 }}>
 				<Col>
-					<Image
-						width={140}
-						src={`https://yungcitizen.com/wp-content/uploads/2018/09/spotify-logo-horizontal-white.png`}
-					/>
+					<Image width={50} src={`https://cdn-icons-png.flaticon.com/512/174/174872.png`} />
 				</Col>
 
 				<Col>
